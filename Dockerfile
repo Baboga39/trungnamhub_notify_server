@@ -1,5 +1,5 @@
 # Multi-stage Dockerfile for trungnamhub_notify_server
-FROM rust:1.85-slim-bookworm AS builder
+FROM rust:1-slim-bookworm AS builder
 WORKDIR /app
 
 # Cache dependencies first
